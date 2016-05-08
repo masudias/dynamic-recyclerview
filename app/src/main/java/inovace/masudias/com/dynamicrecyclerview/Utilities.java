@@ -18,7 +18,7 @@ public class Utilities {
     public static ArrayList<ListObject> populateSecondList() {
         ArrayList<ListObject> mSecondList = new ArrayList<ListObject>();
 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 3; i++) {
             ListObject mListObject = new ListObject("Title of second list " + i, "Description here " + i);
             mSecondList.add(mListObject);
         }
