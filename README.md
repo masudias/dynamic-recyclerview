@@ -8,4 +8,6 @@ So, after searching for suggestions about how can I implement two lists in a sin
 
 I'm just adding a simple mockup screen to make it clear about what we're trying to achieve. You'll have the detailed description of the walk-through in the wiki section of this project. 
 
-![alt tag](https://raw.githubusercontent.com/comeondude/dynamic-recyclerview/master/screenshot.png)
+
+
+<img src="https://raw.githubusercontent.com/comeondude/dynamic-recyclerview/master/screenshot.png" height="400" width="240">
