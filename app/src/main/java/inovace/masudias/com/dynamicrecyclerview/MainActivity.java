@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<ListObject> secondList = new ArrayList<ListObject>();
 
     private RecyclerView mRecyclerView;
-    private RecyclerView.LayoutManager mLayoutManager;
+    private LinearLayoutManager mLayoutManager;
 
     private DynamicListAdapter mDynamicListAdapter;
 
@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
         // Initialize the list
         mDynamicListAdapter = new DynamicListAdapter();
         mLayoutManager = new LinearLayoutManager(MainActivity.this);
+        mLayoutManager.setReverseLayout(true);
+        mLayoutManager.setStackFromEnd(true);
         mRecyclerView.setLayoutManager(mLayoutManager);
         mRecyclerView.setAdapter(mDynamicListAdapter);
     }

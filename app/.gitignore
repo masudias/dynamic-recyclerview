@@ -1,1 +1,4 @@
 /build
+.idea/*
+projectFilesBackup/
+.idea/gradle.xml
