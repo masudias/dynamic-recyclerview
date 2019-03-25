@@ -11,3 +11,10 @@ I'm just adding a simple mockup screen to make it clear about what we're trying 
 
 
 <img src="https://raw.githubusercontent.com/comeondude/dynamic-recyclerview/master/screenshot.png" height="400" width="240">
+
+To run the project
+------------------
+
+You need to have Android Studio along with the Android SDK installed in your machine. To download and install please follow the link [here](https://developer.android.com/studio/install). 
+
+After installing Android Studio, you just have to Import the project -> Build -> Run. 
