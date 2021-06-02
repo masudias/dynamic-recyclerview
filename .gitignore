@@ -12,3 +12,5 @@ projectFilesBackup/
 .idea/gradle.xml
 .idea/misc.xml
 .idea/modules.xml
+.idea/compiler.xml
+.idea/runConfigurations.xml
