@@ -1,4 +1,4 @@
-I've been in trouble sometimes with `RecyclerView` when multiple lists are needed to be shown in a single page of the application. Its not a very good idea actually to have multiple lists in a single layout but however, the idea of having a `ScrollView` and the lists inside that `ScrollView` is even worse.
+I've been in trouble sometimes with `RecyclerView` when multiple lists are needed to be shown in a single page of the application. IMHO, its not a very good idea to have multiple lists in a single layout, however, the idea of having a `ScrollView` and the lists inside that `ScrollView` is worse.
 
 I had to implement a `ListView` inside a `ScrollView` once and yes it was not a very good experience. Firstly, my list was not scrolling at all. Then I had to add some code to disable the scrolling when the touch is detected inside the list. It was not a very good idea of solving the actual problem. I had another problem of having a fixed height of the `ListView`. In case of list items with dynamic heights, the solution failed.
 
